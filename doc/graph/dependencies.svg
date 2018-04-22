@@ -22,69 +22,45 @@
 <text text-anchor="start" x="429.7258" y="-15.4" font-family="sans-serif" font-size="14.00" fill="#000000"> &#160;Exports</text>
 <g id="clust1" class="cluster">
 <title>cluster_NgxMaterialPasswordStrengthModule</title>
-<polygon fill="none" stroke="#000000" stroke-dasharray="1,5" points="78,-70 78,-268 418,-268 418,-70 78,-70"/>
+<polygon fill="none" stroke="#000000" stroke-dasharray="1,5" points="124,-70 124,-268 372,-268 372,-70 124,-70"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_NgxMaterialPasswordStrengthModule_declarations</title>
-<polygon fill="none" stroke="#000000" points="89,-78 89,-130 406,-130 406,-78 89,-78"/>
+<polygon fill="none" stroke="#000000" points="149,-78 149,-130 347,-130 347,-78 149,-78"/>
 </g>
-<g id="clust6" class="cluster">
+<g id="clust5" class="cluster">
 <title>cluster_NgxMaterialPasswordStrengthModule_exports</title>
-<polygon fill="none" stroke="#000000" points="86,-208 86,-260 410,-260 410,-208 86,-208"/>
+<polygon fill="none" stroke="#000000" points="147,-208 147,-260 349,-260 349,-208 147,-208"/>
 </g>
-<!-- LibComponent -->
+<!-- PasswordStrengthComponent -->
 <g id="node1" class="node">
-<title>LibComponent</title>
-<polygon fill="#ffffb3" stroke="#000000" points="398.2758,-122 297.7242,-122 297.7242,-86 398.2758,-86 398.2758,-122"/>
-<text text-anchor="middle" x="348" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">LibComponent</text>
+<title>PasswordStrengthComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="339.4255,-122 156.5745,-122 156.5745,-86 339.4255,-86 339.4255,-122"/>
+<text text-anchor="middle" x="248" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">PasswordStrengthComponent</text>
 </g>
 <!-- NgxMaterialPasswordStrengthModule -->
-<g id="node3" class="node">
+<g id="node2" class="node">
 <title>NgxMaterialPasswordStrengthModule</title>
 <polygon fill="#8dd3c7" stroke="#000000" points="364.1699,-187 361.1699,-191 340.1699,-191 337.1699,-187 131.8301,-187 131.8301,-151 364.1699,-151 364.1699,-187"/>
 <text text-anchor="middle" x="248" y="-164.8" font-family="Times,serif" font-size="14.00" fill="#000000">NgxMaterialPasswordStrengthModule</text>
 </g>
-<!-- LibComponent&#45;&gt;NgxMaterialPasswordStrengthModule -->
-<g id="edge1" class="edge">
-<title>LibComponent&#45;&gt;NgxMaterialPasswordStrengthModule</title>
-<path fill="none" stroke="#000000" d="M330.8486,-122.1061C330.8486,-122.1061 330.8486,-140.991 330.8486,-140.991"/>
-<polygon fill="#000000" stroke="#000000" points="327.3486,-140.9909 330.8486,-150.991 334.3486,-140.991 327.3486,-140.9909"/>
-</g>
-<!-- PasswordStrengthComponent -->
-<g id="node2" class="node">
-<title>PasswordStrengthComponent</title>
-<polygon fill="#ffffb3" stroke="#000000" points="279.4255,-122 96.5745,-122 96.5745,-86 279.4255,-86 279.4255,-122"/>
-<text text-anchor="middle" x="188" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">PasswordStrengthComponent</text>
-</g>
 <!-- PasswordStrengthComponent&#45;&gt;NgxMaterialPasswordStrengthModule -->
-<g id="edge2" class="edge">
+<g id="edge1" class="edge">
 <title>PasswordStrengthComponent&#45;&gt;NgxMaterialPasswordStrengthModule</title>
-<path fill="none" stroke="#000000" d="M205.5638,-122.1061C205.5638,-122.1061 205.5638,-140.991 205.5638,-140.991"/>
-<polygon fill="#000000" stroke="#000000" points="202.0639,-140.9909 205.5638,-150.991 209.0639,-140.991 202.0639,-140.9909"/>
-</g>
-<!-- LibComponent  -->
-<g id="node4" class="node">
-<title>LibComponent </title>
-<polygon fill="#fb8072" stroke="#000000" points="402.276,-252 297.724,-252 297.724,-216 402.276,-216 402.276,-252"/>
-<text text-anchor="middle" x="350" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">LibComponent </text>
-</g>
-<!-- NgxMaterialPasswordStrengthModule&#45;&gt;LibComponent  -->
-<g id="edge3" class="edge">
-<title>NgxMaterialPasswordStrengthModule&#45;&gt;LibComponent </title>
-<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M330.9736,-187.1061C330.9736,-187.1061 330.9736,-205.991 330.9736,-205.991"/>
-<polygon fill="#000000" stroke="#000000" points="327.4736,-205.9909 330.9736,-215.991 334.4736,-205.991 327.4736,-205.9909"/>
+<path fill="none" stroke="#000000" d="M248,-122.1061C248,-122.1061 248,-140.991 248,-140.991"/>
+<polygon fill="#000000" stroke="#000000" points="244.5001,-140.9909 248,-150.991 251.5001,-140.991 244.5001,-140.9909"/>
 </g>
 <!-- PasswordStrengthComponent  -->
-<g id="node5" class="node">
+<g id="node3" class="node">
 <title>PasswordStrengthComponent </title>
-<polygon fill="#fb8072" stroke="#000000" points="279.925,-252 94.075,-252 94.075,-216 279.925,-216 279.925,-252"/>
-<text text-anchor="middle" x="187" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">PasswordStrengthComponent </text>
+<polygon fill="#fb8072" stroke="#000000" points="340.925,-252 155.075,-252 155.075,-216 340.925,-216 340.925,-252"/>
+<text text-anchor="middle" x="248" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">PasswordStrengthComponent </text>
 </g>
 <!-- NgxMaterialPasswordStrengthModule&#45;&gt;PasswordStrengthComponent  -->
-<g id="edge4" class="edge">
+<g id="edge2" class="edge">
 <title>NgxMaterialPasswordStrengthModule&#45;&gt;PasswordStrengthComponent </title>
-<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M205.9388,-187.1061C205.9388,-187.1061 205.9388,-205.991 205.9388,-205.991"/>
-<polygon fill="#000000" stroke="#000000" points="202.4389,-205.9909 205.9388,-215.991 209.4389,-205.991 202.4389,-205.9909"/>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M248,-187.1061C248,-187.1061 248,-205.991 248,-205.991"/>
+<polygon fill="#000000" stroke="#000000" points="244.5001,-205.9909 248,-215.991 251.5001,-205.991 244.5001,-205.9909"/>
 </g>
 </g>
 </svg>
