@@ -9,8 +9,8 @@
       "urls": [
         "/ngx-material-password-strength/favicon.ico",
         "/ngx-material-password-strength/index.html",
-        "/ngx-material-password-strength/0.e12e576852d3d43ff532.chunk.js",
-        "/ngx-material-password-strength/inline.929fc3e5929496281956.bundle.js",
+        "/ngx-material-password-strength/0.3680d811e25c5ed1fb86.chunk.js",
+        "/ngx-material-password-strength/inline.86aff44c0d8fd0a59404.bundle.js",
         "/ngx-material-password-strength/main.4232adc23921015d223a.bundle.js",
         "/ngx-material-password-strength/polyfills.1a5d8bfaa3b55259e369.bundle.js",
         "/ngx-material-password-strength/styles.ff8cfc4009e6b0f6aa96.bundle.css"
@@ -130,9 +130,9 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/ngx-material-password-strength/0.e12e576852d3d43ff532.chunk.js": "f465425a2d6f8018c3c9016593bace6c8b333a76",
+    "/ngx-material-password-strength/0.3680d811e25c5ed1fb86.chunk.js": "4dd45c2b68e9f3ae75e667c3956327b37561bbfc",
     "/ngx-material-password-strength/assets/.npmignore": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-    "/ngx-material-password-strength/inline.929fc3e5929496281956.bundle.js": "8c452f1bf9966614dc44775ec85255d04fcb949c",
+    "/ngx-material-password-strength/inline.86aff44c0d8fd0a59404.bundle.js": "e70e54e9c313dfa9515ca522a4237366895b222e",
     "/ngx-material-password-strength/assets/logo.svg": "0b3394341548880427c38ed78beb990863a4e8cb",
     "/ngx-material-password-strength/main.4232adc23921015d223a.bundle.js": "8bedbd53b3c9e719be6212f87dc5943b0a344ed3",
     "/ngx-material-password-strength/assets/icons/github.svg": "ee58bd52af4b2c26ed6b172de6e10d748a7d9f66",
@@ -142,7 +142,7 @@
     "/ngx-material-password-strength/assets/lib/hljs/LICENSE": "cd25196630fe891662ad77810f0f6dee5bc85ddc",
     "/ngx-material-password-strength/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
     "/ngx-material-password-strength/assets/lib/hljs/README.md": "087887d419ba2c138058e6fac56c24d838bb4114",
-    "/ngx-material-password-strength/index.html": "d64f6051224c98ddec77043c91bfdbc9a132017d",
+    "/ngx-material-password-strength/index.html": "d939dd1789438d24502a0056da554ce75f095b21",
     "/ngx-material-password-strength/assets/lib/hljs/README.ru.md": "3bb30d5980b6a10df92cf223cf9c35d884ebe1ba",
     "/ngx-material-password-strength/assets/lib/hljs/highlight.pack.js": "f109e939c396d7d5874f59ec6e7886f5f9db2496",
     "/ngx-material-password-strength/assets/lib/hljs/styles/agate.css": "8e122b0f00f5a7ec4e6dc492bf1560441eeef7f0",
