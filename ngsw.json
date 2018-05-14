@@ -8,12 +8,7 @@
       "updateMode": "prefetch",
       "urls": [
         "/ngx-material-password-strength/favicon.ico",
-        "/ngx-material-password-strength/index.html",
-        "/ngx-material-password-strength/0.c51267d455eaee061f21.chunk.js",
-        "/ngx-material-password-strength/inline.293a359d023190841605.bundle.js",
-        "/ngx-material-password-strength/main.4232adc23921015d223a.bundle.js",
-        "/ngx-material-password-strength/polyfills.1a5d8bfaa3b55259e369.bundle.js",
-        "/ngx-material-password-strength/styles.ff8cfc4009e6b0f6aa96.bundle.css"
+        "/ngx-material-password-strength/index.html"
       ],
       "patterns": []
     },
@@ -23,7 +18,6 @@
       "updateMode": "prefetch",
       "urls": [
         "/ngx-material-password-strength/assets/.npmignore",
-        "/ngx-material-password-strength/assets/logo.svg",
         "/ngx-material-password-strength/assets/icons/github.svg",
         "/ngx-material-password-strength/assets/lib/hljs/CHANGES.md",
         "/ngx-material-password-strength/assets/lib/hljs/LICENSE",
@@ -112,6 +106,7 @@
         "/ngx-material-password-strength/assets/lib/hljs/styles/xcode.css",
         "/ngx-material-password-strength/assets/lib/hljs/styles/xt256.css",
         "/ngx-material-password-strength/assets/lib/hljs/styles/zenburn.css",
+        "/ngx-material-password-strength/assets/logo.svg",
         "/ngx-material-password-strength/assets/tutorials/cd_angularapp.mp4",
         "/ngx-material-password-strength/assets/tutorials/import_custom_theme.mp4",
         "/ngx-material-password-strength/assets/tutorials/import_theme.mp4",
@@ -130,19 +125,11 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/ngx-material-password-strength/0.c51267d455eaee061f21.chunk.js": "9ce8a76eb50fdde5740ae981e7a02286364b9186",
     "/ngx-material-password-strength/assets/.npmignore": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-    "/ngx-material-password-strength/inline.293a359d023190841605.bundle.js": "08eb81bd0e5809f9681637a8ffd2fc785565c2e9",
-    "/ngx-material-password-strength/assets/logo.svg": "0b3394341548880427c38ed78beb990863a4e8cb",
-    "/ngx-material-password-strength/main.4232adc23921015d223a.bundle.js": "8bedbd53b3c9e719be6212f87dc5943b0a344ed3",
     "/ngx-material-password-strength/assets/icons/github.svg": "ee58bd52af4b2c26ed6b172de6e10d748a7d9f66",
-    "/ngx-material-password-strength/polyfills.1a5d8bfaa3b55259e369.bundle.js": "a3bc82babbf3ddc6eb7a9b817af4d0eee56376b5",
     "/ngx-material-password-strength/assets/lib/hljs/CHANGES.md": "74060b189b3562bd68cc8807789eb431ecb52430",
-    "/ngx-material-password-strength/styles.ff8cfc4009e6b0f6aa96.bundle.css": "638790dde8c7439222eff4796cdbfb14feaab7db",
     "/ngx-material-password-strength/assets/lib/hljs/LICENSE": "cd25196630fe891662ad77810f0f6dee5bc85ddc",
-    "/ngx-material-password-strength/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
     "/ngx-material-password-strength/assets/lib/hljs/README.md": "087887d419ba2c138058e6fac56c24d838bb4114",
-    "/ngx-material-password-strength/index.html": "062fb9f75dc97b0db5d622e6e57b1688a43a6741",
     "/ngx-material-password-strength/assets/lib/hljs/README.ru.md": "3bb30d5980b6a10df92cf223cf9c35d884ebe1ba",
     "/ngx-material-password-strength/assets/lib/hljs/highlight.pack.js": "f109e939c396d7d5874f59ec6e7886f5f9db2496",
     "/ngx-material-password-strength/assets/lib/hljs/styles/agate.css": "8e122b0f00f5a7ec4e6dc492bf1560441eeef7f0",
@@ -227,6 +214,7 @@
     "/ngx-material-password-strength/assets/lib/hljs/styles/xcode.css": "65d775a7e11e238c91e0d3c7370547348c92d6b3",
     "/ngx-material-password-strength/assets/lib/hljs/styles/xt256.css": "bbe28ec69177699cb6300d777598adf6323f7861",
     "/ngx-material-password-strength/assets/lib/hljs/styles/zenburn.css": "933a3b196d01254dea5e6f48105ea15e210ae000",
+    "/ngx-material-password-strength/assets/logo.svg": "0b3394341548880427c38ed78beb990863a4e8cb",
     "/ngx-material-password-strength/assets/tutorials/cd_angularapp.mp4": "20fbf2ed793cf2584a7aca53f45441e0f159d628",
     "/ngx-material-password-strength/assets/tutorials/import_custom_theme.mp4": "798738d4a0f08a15f6980020fdbbf5f3b20659c9",
     "/ngx-material-password-strength/assets/tutorials/import_theme.mp4": "f1f70ce1912105dd59d0a41200e8c87b7ed6c584",
@@ -238,6 +226,26 @@
     "/ngx-material-password-strength/assets/tutorials/ngx-material-password-strength_demo.mp4": "c5d3b515477809c7acba748b29a299467784d3bb",
     "/ngx-material-password-strength/assets/tutorials/npm_i_animations.mp4": "9670daebf521d3f8ae6d12b5e5184c9b5decdf40",
     "/ngx-material-password-strength/assets/tutorials/npm_i_material_cdk.mp4": "3b454f8357a55ff17bbc6d69ba034689a12945e7",
-    "/ngx-material-password-strength/assets/tutorials/npm_i_ngx_material_password_strength.mp4": "c54e78c12b11fde3df2c491d9a610aa2abcffa6a"
-  }
+    "/ngx-material-password-strength/assets/tutorials/npm_i_ngx_material_password_strength.mp4": "c54e78c12b11fde3df2c491d9a610aa2abcffa6a",
+    "/ngx-material-password-strength/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/ngx-material-password-strength/index.html": "f62d4eea8b134f4c512b199f2087c5f708c785ba"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*\\.[^\\/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*\\/.*$"
+    }
+  ]
 }
