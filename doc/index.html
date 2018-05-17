@@ -86,14 +86,14 @@
                         <a href="modules/NgxMaterialPasswordStrengthModule.html" data-type="entity-link">NgxMaterialPasswordStrengthModule</a>
                             <li class="chapter inner">
                                 <div class="simple menu-toggler" data-toggle="collapse"
-                                        data-target="#xs-components-links-module-NgxMaterialPasswordStrengthModule-bd72217d-1765-4146-8bbe-3d09d7a540ae"
+                                        data-target="#xs-components-links-module-NgxMaterialPasswordStrengthModule-3d0909de-520f-49e3-a3f3-d4393c9ae1f6"
                                     >
                                     <span class="fa fa-fw fa-cogs"></span>
                                     <span>Components</span>
                                     <span class="fa fa-angle-down"></span>
                                 </div>
                                 <ul class="links collapse"
-                                        id="xs-components-links-module-NgxMaterialPasswordStrengthModule-bd72217d-1765-4146-8bbe-3d09d7a540ae"
+                                        id="xs-components-links-module-NgxMaterialPasswordStrengthModule-3d0909de-520f-49e3-a3f3-d4393c9ae1f6"
                                     >
                                         <li class="link">
                                             <a href="components/PasswordStrengthComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">PasswordStrengthComponent</a>
@@ -207,14 +207,14 @@
                         <a href="modules/NgxMaterialPasswordStrengthModule.html" data-type="entity-link">NgxMaterialPasswordStrengthModule</a>
                             <li class="chapter inner">
                                 <div class="simple menu-toggler" data-toggle="collapse"
-                                        data-target="#components-links-module-NgxMaterialPasswordStrengthModule-bd72217d-1765-4146-8bbe-3d09d7a540ae"
+                                        data-target="#components-links-module-NgxMaterialPasswordStrengthModule-3d0909de-520f-49e3-a3f3-d4393c9ae1f6"
 >
                                     <span class="fa fa-fw fa-cogs"></span>
                                     <span>Components</span>
                                     <span class="fa fa-angle-down"></span>
                                 </div>
                                 <ul class="links collapse"
-                                        id="components-links-module-NgxMaterialPasswordStrengthModule-bd72217d-1765-4146-8bbe-3d09d7a540ae"
+                                        id="components-links-module-NgxMaterialPasswordStrengthModule-3d0909de-520f-49e3-a3f3-d4393c9ae1f6"
 >
                                         <li class="link">
                                             <a href="components/PasswordStrengthComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">PasswordStrengthComponent</a>
@@ -274,7 +274,12 @@
 <a href="https://github.com/AnthonyNahas/ngx-material-password-strength/blob/master/LICENSE"><img src="https://img.shields.io/github/license/anthonynahas/ngx-material-password-strength.svg?style=flat-square" alt="license" class="img-responsive"></a></p>
 <p align="center">
   <img alt="ngx-material-password-strength" style="text-align: center;"
-   src="assets/ngx-material-password-strength/ngx-material-password-strength_demo.gif">
+   src="assets/ngx-material-password-strength/demo_v2.0.1_2.gif">
+</p>
+
+<p align="center">
+  <img alt="ngx-material-password-strength" style="text-align: center;"
+   src="assets/ngx-material-password-strength/demo_v2.0.1.gif">
 </p>
 
 <h2 id="demo">Demo</h2>
@@ -326,7 +331,42 @@ export class AppModule {
   imports: [NgxMaterialPasswordStrengthModule, ...], 
 })
 export class OtherModule {
-}</code></pre><h2 id="usage">Usage</h2>
+}</code></pre><h2 id="api">API</h2>
+<table class="table table-bordered compodoc-table">
+<thead>
+<tr>
+<th style="text-align:left">option</th>
+<th style="text-align:center">bind</th>
+<th style="text-align:center">type</th>
+<th style="text-align:center">default</th>
+<th style="text-align:left">description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">password</td>
+<td style="text-align:center">Input()</td>
+<td style="text-align:center">string</td>
+<td style="text-align:center">-</td>
+<td style="text-align:left">the password to calculate its strength</td>
+</tr>
+<tr>
+<td style="text-align:left">externalError</td>
+<td style="text-align:center">Input()</td>
+<td style="text-align:center">boolean</td>
+<td style="text-align:center">false</td>
+<td style="text-align:left">used to change the color of the password to warn if an external error occurs</td>
+</tr>
+<tr>
+<td style="text-align:left">onStrengthChanged</td>
+<td style="text-align:center">Output()</td>
+<td style="text-align:center">number</td>
+<td style="text-align:center">-</td>
+<td style="text-align:left">emits the strength of the provided password in % e.g: 20%, 40%, 60%, 80% or 100%</td>
+</tr>
+</tbody>
+</table>
+<h2 id="usage">Usage</h2>
 <p>add the <code>ngx-material-password-strength</code> element to your template:</p>
 <pre class="line-numbers"><code class="language-html">&lt;ngx-material-password-strength
             [password]=&quot;password.value&quot;&gt;
@@ -334,23 +374,47 @@ export class OtherModule {
 or else.</p>
 <p>In the following example, we integration a material input container with <code>ngx-material-password-strength</code> &#39;s component.</p>
 <pre class="line-numbers"><code class="language-html">&lt;div&gt;
-  &lt;mat-form-field floatPlaceholder=&quot;auto&quot; style=&quot;width: 100%&quot;&gt;
-         &lt;input matInput #password
-                [type]=&quot;inputType&quot;
-                required
-                placeholder=&quot;Password&quot;&gt;
-         &lt;mat-hint align=&quot;end&quot; aria-live=&quot;polite&quot;&gt;
-           {{password.value.length}} / 25
-         &lt;/mat-hint&gt;
-       &lt;/mat-form-field&gt;
-       &lt;ngx-material-password-strength
-         [password]=&quot;password.value&quot;&gt;
-       &lt;/ngx-material-password-strength&gt;
-     &lt;/div&gt;</code></pre><p><a href="https://material.angular.io/components/input/overview">learn more about mat-form-field</a></p>
-<h3 id="please-checkout-the-full-documentation-here-or-follow-the-official-tutorial">Please checkout the full documentation <a href="https://anthonynahas.github.io/ngx-material-passowrd-strength/doc/index.html">here</a> or follow the official <a href="https://anthonynahas.github.io/ngx-material-password-strength/getting-started">tutorial</a></h3>
-<h2 id="development">Development</h2>
-<p>To generate all <code>*.js</code>, <code>*.d.ts</code> and <code>*.metadata.json</code> files:</p>
-<pre class="line-numbers"><code class="language-bash">$ npm run build</code></pre><p>To lint all <code>*.ts</code> files:</p>
+  &lt;mat-form-field appearance=&quot;outline&quot; style=&quot;width: 100%&quot; [color]=&quot;passwordComponent.color&quot;&gt;
+              &lt;mat-label&gt;Password&lt;/mat-label&gt;
+              &lt;input matInput #password
+                     [type]=&quot;inputType&quot;
+                     required
+                     placeholder=&quot;Password&quot;&gt;
+              &lt;mat-hint align=&quot;end&quot; aria-live=&quot;polite&quot;&gt;
+                {{password.value.length}} / 25
+              &lt;/mat-hint&gt;
+            &lt;/mat-form-field&gt;
+
+            &lt;ngx-material-password-strength #passwordComponent
+                                            (onStrengthChanged)=&quot;onStrengthChanged($event)&quot;
+                                            [password]=&quot;password.value&quot;&gt;
+            &lt;/ngx-material-password-strength&gt;
+     &lt;/div&gt;</code></pre><p>Example of how to use the emitted strength of the password in your template</p>
+<pre class="line-numbers"><code class="language-html">&lt;div fxLayout=&quot;row&quot; fxLayoutGap=&quot;10px&quot;&gt;
+                &lt;div *ngIf=&quot;passwordComponent.strength === 100; then done else error&quot;&gt;
+                &lt;/div&gt;
+                &lt;ng-template #done&gt;
+                  &lt;mat-icon color=&quot;primary&quot;&gt;done&lt;/mat-icon&gt;
+                &lt;/ng-template&gt;
+                &lt;ng-template #error&gt;
+                  &lt;mat-icon color=&quot;warn&quot;&gt;error&lt;/mat-icon&gt;
+                &lt;/ng-template&gt;
+                &lt;div&gt;
+                  &lt;p&gt;Password&#39;s strength = {{passwordComponent.strength}} %100&lt;/p&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+``
+
+[learn more about mat-form-field](https://material.angular.io/components/input/overview)
+
+### Please checkout the full documentation [here](https://anthonynahas.github.io/ngx-material-passowrd-strength/doc/index.html) or follow the official [tutorial](https://anthonynahas.github.io/ngx-material-password-strength/getting-started) 
+
+## Development
+
+To generate all `*.js`, `*.d.ts` and `*.metadata.json` files:
+
+```bash
+$ npm run build</code></pre><p>To lint all <code>*.ts</code> files:</p>
 <pre class="line-numbers"><code class="language-bash">$ npm run lint</code></pre><h2 id="other-angular-libraries">Other Angular Libraries</h2>
 <ul>
 <li><a href="https://github.com/AnthonyNahas/ngx-auth-firebaseui">ngx-auth-firebaseui</a></li>
