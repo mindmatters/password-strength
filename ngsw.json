@@ -18,7 +18,17 @@
       "updateMode": "prefetch",
       "urls": [
         "/assets/.npmignore",
+        "/assets/angular-material-extensions-logo.png",
+        "/assets/angular-material-extensions-logo.svg",
         "/assets/icons/github.svg",
+        "/assets/images/icons/icon-128x128.png",
+        "/assets/images/icons/icon-144x144.png",
+        "/assets/images/icons/icon-152x152.png",
+        "/assets/images/icons/icon-192x192.png",
+        "/assets/images/icons/icon-384x384.png",
+        "/assets/images/icons/icon-512x512.png",
+        "/assets/images/icons/icon-72x72.png",
+        "/assets/images/icons/icon-96x96.png",
         "/assets/lib/hljs/CHANGES.md",
         "/assets/lib/hljs/LICENSE",
         "/assets/lib/hljs/README.md",
@@ -107,6 +117,11 @@
         "/assets/lib/hljs/styles/xt256.css",
         "/assets/lib/hljs/styles/zenburn.css",
         "/assets/logo.svg",
+        "/assets/manifest.json",
+        "/assets/md/examples/e1.md",
+        "/assets/md/examples/e2.md",
+        "/assets/md/examples/e3.md",
+        "/assets/md/examples/e4.md",
         "/assets/tutorials/cd_angularapp.mp4",
         "/assets/tutorials/import_custom_theme.mp4",
         "/assets/tutorials/import_theme.mp4",
@@ -126,7 +141,17 @@
   "dataGroups": [],
   "hashTable": {
     "/assets/.npmignore": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "/assets/angular-material-extensions-logo.png": "9fe35fd67711eae03a9c4cbdac47f607b32f0515",
+    "/assets/angular-material-extensions-logo.svg": "bdbba3a9f705f8ec49c9305ceeb2a5372871e502",
     "/assets/icons/github.svg": "ee58bd52af4b2c26ed6b172de6e10d748a7d9f66",
+    "/assets/images/icons/icon-128x128.png": "b9cbcee329c974ee1a41d501ad62d8841e2df45a",
+    "/assets/images/icons/icon-144x144.png": "cee6f46dda413c5e3f5741f1564e9f4de004873b",
+    "/assets/images/icons/icon-152x152.png": "4ea6c87c0c9f7370721886174a615019bfd60d82",
+    "/assets/images/icons/icon-192x192.png": "eeb3581b7079934dbe28a47f6b47bdacbb4dc13f",
+    "/assets/images/icons/icon-384x384.png": "cae7ebed43b5a4060ffd155cfab2b2276cdc7f3d",
+    "/assets/images/icons/icon-512x512.png": "f830fc75b904cf0459504bffd995a958b2135867",
+    "/assets/images/icons/icon-72x72.png": "c26ecd9a3c9972377893a739173054f3604a284e",
+    "/assets/images/icons/icon-96x96.png": "e617445d946921f7363cebb0c2df143b3d5b9979",
     "/assets/lib/hljs/CHANGES.md": "74060b189b3562bd68cc8807789eb431ecb52430",
     "/assets/lib/hljs/LICENSE": "cd25196630fe891662ad77810f0f6dee5bc85ddc",
     "/assets/lib/hljs/README.md": "087887d419ba2c138058e6fac56c24d838bb4114",
@@ -215,6 +240,11 @@
     "/assets/lib/hljs/styles/xt256.css": "bbe28ec69177699cb6300d777598adf6323f7861",
     "/assets/lib/hljs/styles/zenburn.css": "933a3b196d01254dea5e6f48105ea15e210ae000",
     "/assets/logo.svg": "0b3394341548880427c38ed78beb990863a4e8cb",
+    "/assets/manifest.json": "d0f24b7fbaa44fba0c4a5cdc8ee958407de35012",
+    "/assets/md/examples/e1.md": "60082e0e39f261a0020832f2ecb1b46d5674cc60",
+    "/assets/md/examples/e2.md": "4a2af31b550acbdf2197bdc98b2f442802d1db42",
+    "/assets/md/examples/e3.md": "e3a357822fb9181b954277ac61b275d724c99295",
+    "/assets/md/examples/e4.md": "e8addae8d31193406549a626aee28559599c1c0e",
     "/assets/tutorials/cd_angularapp.mp4": "20fbf2ed793cf2584a7aca53f45441e0f159d628",
     "/assets/tutorials/import_custom_theme.mp4": "798738d4a0f08a15f6980020fdbbf5f3b20659c9",
     "/assets/tutorials/import_theme.mp4": "f1f70ce1912105dd59d0a41200e8c87b7ed6c584",
@@ -228,7 +258,7 @@
     "/assets/tutorials/npm_i_material_cdk.mp4": "3b454f8357a55ff17bbc6d69ba034689a12945e7",
     "/assets/tutorials/npm_i_ngx_material_password_strength.mp4": "c54e78c12b11fde3df2c491d9a610aa2abcffa6a",
     "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/index.html": "7a7d3ed4d88f0c799b5e33132b92ee8ade03b3a4"
+    "/index.html": "3d2f90c65d6dbe6a2259fa57e04d37c8ef6d9028"
   },
   "navigationUrls": [
     {
@@ -237,15 +267,15 @@
     },
     {
       "positive": false,
-      "regex": "^\\/(?:.+\\/)?[^\\/]*\\.[^\\/]*$"
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
     },
     {
       "positive": false,
-      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*$"
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
     },
     {
       "positive": false,
-      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*\\/.*$"
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
     }
   ]
 }
