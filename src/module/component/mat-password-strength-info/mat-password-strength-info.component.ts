@@ -80,4 +80,14 @@ export class MatPasswordStrengthInfoComponent {
   @Input()
   enableScoreInfo = false;
 
+  @Input()
+  translations: {
+    lowercase: string,
+    uppercase: string,
+    digits: string,
+    symbols: string,
+    min: string,
+    minCharacters: string,
+    strength: string
+  }
 }
